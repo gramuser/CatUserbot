@@ -223,7 +223,7 @@ async def _(event):
     await borg.send_file(
                 event.chat_id,
                 loa,
-                force_document=True,
+                force_document=False,
                 allow_cache=False,
                 caption=f"`Song`: {query}\n`Uploaded by`: {DEFAULTUSER}",
                 reply_to=reply_to_id
